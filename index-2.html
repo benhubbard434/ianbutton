@@ -28,14 +28,19 @@
       .logo {display:block; margin: 0 auto;}
       .divider {width: 33%; height: 1px; display:block; margin: 48px auto; background:#FB3640;}
 
-      .mobile-only {position:fixed; bottom:10px; right: 10px; height: 48px; padding: 12px;}
+      .mobile-only {position:fixed; bottom:20px; right: 20px; height: 48px; padding: 12px;}
       .phone {height: 44px;fill: #FB3640; }
-      .phone-holder {position: fixed; right: 10px}
+      .phone-holder {position: fixed; right: 20px}
       .phone-friend {float: right; padding-right: 10px;}
       .phone-button {display: block; border-radius: 3px; background:#f6f6f6; border: 1px solid #FB3640; color: #031927; padding: 8px 12px; font-family:"Noto Serif",sans-serif;font-optical-sizing:auto;font-weight:<weight>;font-style:normal;font-size:16px;line-height: 24px; text-decoration: none; }
 
-      @media only screen and (min-width: 640px) {
+      @media only screen and (max-width: 640px) {
         footer {padding-bottom: 72px;}
+        .mobile-only {position:fixed; bottom:20px; right: 20px; height: 48px; padding: 12px;}
+        .phone {height: 44px;fill: #FB3640; }
+        .phone-holder {position: fixed; right: 20px}
+        .phone-friend {float: right; padding-right: 10px;}
+        .phone-button {display: block; border-radius: 3px; background:#f6f6f6; border: 1px solid #FB3640; color: #031927; padding: 8px 12px; font-family:"Noto Serif",sans-serif;font-optical-sizing:auto;font-weight:<weight>;font-style:normal;font-size:16px;line-height: 24px; text-decoration: none; }
       }
     </style>
   </head>
