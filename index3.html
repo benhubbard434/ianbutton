@@ -38,14 +38,16 @@
       .breathe {padding-top:40px;}
 
       .mobile-only {display:none;}
+      .mobile-hide {display:none}
       
       @media (max-width: 500px) {
         footer {padding-bottom: 72px;}
         .mobile-only {position:fixed; bottom:20px; right: 20px; height: 48px; padding: 12px; display:block}
-        
+        .mobile-hide {display:block}
+        .mobile-email {display:none}
         .phone-holder {position: fixed; right: 20px}
         .phone-friend {float: right; padding-right: 10px;}
-        .phone-button {display: block; border-radius: 3px; background: #FB3640; color: #031927; padding: 8px 12px; font-family:"Noto Serif",sans-serif;font-optical-sizing:auto;font-weight:<weight>;font-style:normal;font-size:16px;line-height: 24px; text-decoration: none; }
+        .phone-button {display: block; border-radius: 3px; background: #FB3640; color: white; padding: 8px 12px; font-family:"Noto Serif",sans-serif;font-optical-sizing:auto;font-weight:<weight>;font-style:normal;font-size:16px;line-height: 24px; text-decoration: none; }
       }
     </style>
   </head>
@@ -98,8 +100,8 @@
       <div class="content">
         <h3>Contact Us</h3>
         <p>Unit 1 Firdale Farm, Mildenhall Road, Fordham, Ely, Cambs CB7 5NT</p>
-        <p>01638 720678</p>
-        <p>Ianbuttoncars@mycommunications.co.uk</p>
+        <p><a href="tel:+441638720678">01638 720678</a></p>
+        <p><span class="mobile-email"><a href="mailto:Ianbuttoncars@mycommunications.co.uk">ianbuttoncars@mycommunications.co.uk</a></span><span class="mobile-hide"><a href="mailto:Ianbuttoncars@mycommunications.co.uk">Email us</a></span></p>
       </div>
       <div class="content">
         <div class="divider"></div>
